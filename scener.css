@@ -1,0 +1,30 @@
+body {
+    
+    
+color: white;
+}
+.comet_pic {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.stretch {
+
+    display:inline-block;
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1); /* W3C */
+    color: red;
+}
+
+.dog_pic{
+    position: fixed;
+    top: 70%;
+    left: 35%;
+   
+}

@@ -1,0 +1,59 @@
+a { 
+    color: inherit; 
+} /* to get rid of default link color!*/
+.up_text {
+    position: relative;
+    top: -7px;
+}
+
+.sd { 
+font-size: 20px;
+    color: greenyellow;
+
+}
+
+
+
+
+.stretch {
+
+    display:inline-block;
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1); /* W3C */
+    color: red;
+}
+
+.stretch:hover{
+    font-family: fantasy;
+        font-size: 25px;
+    color: greenyellow;
+    
+}
+
+
+
+
+.down_text {
+    position: relative;
+    top: 30px;
+}
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: blue;
+    color: white
+}
+.option2:hover{
+    font-family: monospace;
+    font-size: 40px;
+    color: red;
+}
+
+.option1:hover{
+    font-family: monospace;
+    font-size: 40px;
+    color: hotpink;
+}
